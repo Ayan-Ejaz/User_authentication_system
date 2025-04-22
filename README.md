@@ -4,14 +4,23 @@ A backend implementation for user authentication, including user registration, l
 
 ## Libraries Used
 bcrypt: For password hashing and verification.
+
 dotenv: For loading environment variables from a .env file.
+
 body-parser: For parsing incoming request bodies.
+
 #nodemailer: For sending emails (e.g., for email verification and password resets).
+
 express-validator: For validating incoming data.
+
 sequelize: ORM for database interaction.
+
 mysql2: MySQL database driver.
+
 express-rate-limit: To apply rate limiting to routes (e.g., login attempts).
+
 otp-generator: For generating one-time passwords (OTP) for MFA.
+
 winston: For logging system events to both the console and a log file.
 
 Setup and Installation
@@ -28,11 +37,17 @@ Setup and Installation
 Create a .env file in the root directory with the following environment variables:
 
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=password
+
 DB_DIALECT=mysql
+
 DB_NAME = User_Authentication_System
+
 EMAIL = you@email.com
+
 EMAIL_PASSWORD=yourpassword
 
 # THE NODE MAILER FUNCTIONALTIY
@@ -47,9 +62,13 @@ In order to send emails using Node Mailer, You need to:
 
 # Features
 Password Hashing: Utilizes bcrypt to securely hash passwords before storing them in the database.
+
 Email Verification: Sends a verification email to users during registration.
+
 OTP for Password Reset: Provides an OTP mechanism for securely resetting passwords.
+
 Rate Limiting: Limits the number of requests to prevent brute force attacks, especially on login.
+
 Logging: Uses Winston for logging user actions to events.log
 
 # Security
