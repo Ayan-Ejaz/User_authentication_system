@@ -76,8 +76,8 @@ Password Security: Passwords are hashed using bcrypt before storage.
 Rate Limiting: Rate limiting is implemented to protect against brute-force login attempts.
 
 
-Contributing
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. Make sure to follow the code style and write tests for new features.
+# Contributions
+If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes. I greatly appreciate it.
 
 License
 This project is licensed under the MIT License.
