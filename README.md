@@ -3,16 +3,16 @@
 A backend implementation for user authentication, including user registration, login, email verification, and multi-factor authentication (MFA) using One-Time Passwords (OTP). The system utilizes various libraries and technologies to ensure secure user management and efficient request handling.
 
 ## Libraries Used
-# bcrypt: For password hashing and verification.
-# dotenv: For loading environment variables from a .env file.
-# body-parser: For parsing incoming request bodies.
-# nodemailer: For sending emails (e.g., for email verification and password resets).
-# express-validator: For validating incoming data.
-# sequelize: ORM for database interaction.
+bcrypt: For password hashing and verification.
+dotenv: For loading environment variables from a .env file.
+body-parser: For parsing incoming request bodies.
+#nodemailer: For sending emails (e.g., for email verification and password resets).
+express-validator: For validating incoming data.
+sequelize: ORM for database interaction.
 mysql2: MySQL database driver.
-# express-rate-limit: To apply rate limiting to routes (e.g., login attempts).
-# otp-generator: For generating one-time passwords (OTP) for MFA.
-# winston: For logging system events to both the console and a log file.
+express-rate-limit: To apply rate limiting to routes (e.g., login attempts).
+otp-generator: For generating one-time passwords (OTP) for MFA.
+winston: For logging system events to both the console and a log file.
 
 Setup and Installation
 
