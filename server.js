@@ -1,5 +1,5 @@
 const express = require('express')
-require('dotenv').env
+require('dotenv').config();
 const authRoutes = require('./src/route/authRoutes')
 const ForgotPasswordRoutes = require('./src/route/ForgotPasswordRoutes')
 const rateLimit = require('express-rate-limit')
